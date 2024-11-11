@@ -98,7 +98,6 @@ fun Tap() {
         R.drawable.pu4, R.drawable.pu5)
     var Number by remember { mutableStateOf(0) }
 
-
     Column {
 
         Text("\n" + msg + "\n計數:" + count.toString(),
